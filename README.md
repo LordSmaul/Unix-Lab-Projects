@@ -26,3 +26,5 @@ Lab 8: Regular Expressions: the "grep" command
  - uses colored text to delineate between each individual grep call
  
 Labs 9-14 involved version control in GitLab; all files were pulled from my school GitLab account. The Lab9_10_11 and Lab12_13_14 folders are from separate GitLab repositories and contain their own README.md files explaining the Labs.
+
+Lab 14 is not included; I was unable to complete it due to circumstances beyond my control that happened when it was assigned. It was similar to Lab 13, except we were to use an Ansible Galaxy role to install the Apache configuration instead of installing it ourselves.
