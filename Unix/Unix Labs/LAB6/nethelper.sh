@@ -21,14 +21,11 @@ function pick_host # Function that automates the process of picking the desired 
 	done
 
 	read -p "Enter a number to select a host: " which_host # Gets desired server from user input
-	if [[ $which_host -lt 1 || $which_host -gt $count ]] # If user input is out of range
-	then
-		while [[ $which_host -lt 1 || $which_host -gt $count ]] # Makes sure that user input is within range
-		do
-			echo "Error! Invalid input."
-			read -p "Enter a number to select the host: " which_host
-		done
-	fi
+	while [[ $which_host -lt 1 || $which_host -gt $count ]] # Makes sure that user input is within range
+	do
+		echo "Error! Invalid input."
+		read -p "Enter a number to select the host: " which_host
+	done
 }
 
 read_hosts $@ # Passes argument to the function paramter
