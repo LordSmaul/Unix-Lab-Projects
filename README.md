@@ -4,6 +4,8 @@ This folder contains the notes and labs from an introductory Unix Lab class that
 
 All labs have been edited from their original forms; I took the liberty of reducing the folders to the base shell scripts or any other necessary code files that were written. Any files that contained personal information were also removed. Any .doxc or .pdf file were also removed, as they didn't contain any code files.
 
+___
+
 **Here's a quick rundown of the assignments and their goals**:
 
 Lab 4: Intro to Shell scripting
@@ -23,19 +25,6 @@ Lab 6: Intermediate shell scripting
    
 Lab 8: Regular Expressions: the "grep" command
  - executes a list of "grep" pattern matching commands from a .dat file
- - uses colored text to delineate between each individual grep call
- 
-Labs 9-14 involved version control in GitLab; all files were pulled from my school GitLab account. The Lab9_10_11 and Lab12_13_14 folders are from separate GitLab repositories and contain their own README.md files explaining the Labs.
-
-Lab 14 is not included; I was unable to complete it due to circumstances beyond my control that happened when it was assigned. It was similar to Lab 13, except we were to use an Ansible Galaxy role to install the Apache configuration instead of installing it ourselves.
-
-  
-Lab 6: Intermediate shell scripting
- - nethelper.sh: reads in a list of hosts from a .txt file, then asks the users to perform a series of actions from a case statement until a quit command is reached; if the action requires a host name, the user is asked to specify the host from the lsit that was read in.
-   - actions include: nslookup, ping, ssh, hostname, and ifconfig, with a quit function as well.
-   
-Lab 8: Regular Expressions: the "grep" command
- - excutes a list of "grep" pattern matching commands from a .dat file
  - uses colored text to delineate between each individual grep call
  
 Labs 9-14 involved version control in GitLab; all files were pulled from my school GitLab account. The Lab9_10_11 and Lab12_13_14 folders are from separate GitLab repositories and contain their own README.md files explaining the Labs.
