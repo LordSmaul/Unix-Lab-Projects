@@ -1,4 +1,4 @@
-#1/bin/bash
+#!/bin/bash
 
 month=$((10#$(date +"%m")))
 minutes=$(date +"%M")
